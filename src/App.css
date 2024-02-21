@@ -1,0 +1,389 @@
+:root {
+  --llescano-negro: #000;
+  --llescano-blanco: #fff;
+  --llescano-gris: #353D4F;
+  --llescano-gris-oscuro: #303030;
+  --llescano-gris-medio: #54595F;
+  --llescano-gris-claro: #f8f8f8;
+  --llescano-gris-hover: #d3d3d3;
+  --llescano-texto: #7a7a7a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--llescano-gris);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+}
+
+#app {
+  background-color: var(--llescano-gris-claro);
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--llescano-blanco);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a {
+  color: var(--llescano-texto);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--llescano-gris);
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.nav-menu-li::before {
+  color: var(--llescano-gris);
+  content: '\003C';
+}
+
+.nav-menu-li::after {
+  color: var(--llescano-gris);
+  content: '\002F\003E';
+}
+
+.hola {
+  background-color: var(--llescano-blanco);
+  color: var(--llescano-texto);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hola-foto img {
+  width: 18.75rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hola-descripcion-saludo {
+  font-size: 2.5rem;
+}
+
+.hola-descripcion-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: var(--llescano-negro);
+}
+
+.hola-descripcion-quien-soy {
+  color: var(--llescano-gris);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.hola-descripcion-lugar {
+  margin-top: 1rem;
+}
+
+.hola-descripcion-pais, .hola-descripcion-edad {
+  font-weight: 600;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  background-color: var(--llescano-blanco);
+  color: var(--llescano-texto);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comienzoSubTitulo {
+  margin-bottom: 1rem;
+}
+
+.finSubTitulo {
+  margin-top: 1rem;
+}
+
+.comienzoSubTitulo::before {
+  color: var(--llescano-gris);
+  content: '\003C';
+}
+
+.comienzoSubTitulo::after {
+  color: var(--llescano-gris);
+  content: '\003E';
+}
+
+.finSubTitulo::before {
+  color: var(--llescano-gris);
+  content: '\003C';
+}
+
+.finSubTitulo::after {
+  color: var(--llescano-gris);
+  content: '\002F\003E';
+}
+
+.skills-contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.skills-contenedor-card {
+  background-color: var(--llescano-gris);
+  color: var(--llescano-blanco);
+  font-weight: 300;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.mensaje-error {
+  color: red;
+}
+
+.portfolio {
+  background-color: var(--llescano-blanco);
+  color: var(--llescano-texto);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.portfolio-contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.portfolio-contenedor-card {
+  background-color: var(--llescano-gris);
+  color: var(--llescano-blanco);
+  font-weight: 300;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.portfolio-contenedor-card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* COMENTADO HASTA FIX BUG RUTA DE IMAGENES -> VER COMPONENTE `PortfolioCard.jsx` ln8 */
+/*.portfolio-contenedor-card h3,*/ .portfolio-contenedor-card p {
+  padding-top: .7rem;
+}
+
+.portfolio-contenedor-card a {
+  color: var(--llescano-blanco);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.portfolio-contenedor-card-descripcion {
+  font-size: .8rem;
+}
+
+.portfolio-contenedor-card-url {
+  font-size: .8rem;
+}
+
+.portfolio-contenedor-card-estado {
+  font-weight: 500;
+  text-shadow: .5px .5px 1.2px var(--llescano-blanco);
+}
+
+.activo {
+  color: green;
+}
+
+.baja {
+  color: red;
+}
+
+.mantenimiento {
+  color: orange;
+}
+
+.migrado {
+  color: blue;
+}
+
+.portfolio-contenedor-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 12.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--llescano-gris);
+  border-radius: .5rem;
+  border-width: 1;
+  border-style: solid;
+  border-color: var(--llescano-gris);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--llescano-gris);
+  color: var(--llescano-blanco);
+}
+
+.contacto {
+  background-color: var(--llescano-blanco);
+  color: var(--llescano-texto);
+  border-radius: .5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacto-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacto-contenedor a {
+  color: var(--llescano-gris);
+  font-weight: 600;
+}
+
+.footer {
+  background-color: var(--llescano-blanco);
+  color: var(--llescano-texto);
+  border-radius: .5rem;
+  margin-top: 1rem;
+  min-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------- */
+/* -------------------- */
+/* ------ Tablet ------ */
+/* -------------------- */
+/* -------------------- */
+
+@media screen and (max-width: 992px) {
+  .hola-foto img {
+    width: 10rem;
+  }
+  
+  .hola-descripcion-saludo {
+    font-size: 2rem;
+  }
+  
+  .hola-descripcion-brand {
+    font-size: 2.5rem;
+  }
+  
+  .hola-descripcion-quien-soy {
+    font-size: 1rem;
+  }
+
+  .hola-descripcion-lugar, .hola-descripcion-tengo {
+    font-size: .8rem;
+  }
+  
+  .skills-contenedor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-contenedor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* -------------------- */
+/* -------------------- */
+/* ------ Mobile ------ */
+/* -------------------- */
+/* -------------------- */
+
+@media screen and (max-width: 576px) {
+  .header {
+    display: none;
+  }
+
+  .hola {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hola-foto img {
+    width: 12.5rem;
+  }
+  
+  .hola-descripcion-saludo {
+    font-size: 2rem;
+  }
+  
+  .hola-descripcion-brand {
+    font-size: 2.5rem;
+  }
+  
+  .hola-descripcion-quien-soy {
+    font-size: 1rem;
+  }
+
+  .hola-descripcion-lugar, .hola-descripcion-tengo {
+    font-size: .8rem;
+  }
+  
+  .skills-contenedor {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .portfolio-contenedor {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
