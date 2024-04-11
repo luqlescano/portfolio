@@ -249,6 +249,10 @@ body {
   color: blue;
 }
 
+.desarrollo {
+  color: yellow;
+}
+
 .portfolio-contenedor-btn {
   display: flex;
   justify-content: center;

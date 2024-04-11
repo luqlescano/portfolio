@@ -116,7 +116,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con HTML y CSS.",
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
-        enlace: "https://luqlescano.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2018
     },
@@ -149,7 +149,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con HTML y CSS.",
         cliente: "Silvina Fuentes",
         url: "www.silvinafuentes.com.ar",
-        enlace: "https://silvinafuentes.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2018
     },
@@ -193,7 +193,7 @@ const proyectos = [
         descripcion: "E-commerce. El desarrollo se hizo con Wordpress y WooCommerce.",
         cliente: "DULÉ Sublimación",
         url: "www.dule.com.ar",
-        enlace: "https://dule.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2019
     },
@@ -204,7 +204,7 @@ const proyectos = [
         descripcion: "E-commerce. El desarrollo se hizo con Wordpress y WooCommerce.",
         cliente: "Herencia Store",
         url: "www.herenciastore.com.ar",
-        enlace: "https://herenciastore.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2019
     },
@@ -226,7 +226,7 @@ const proyectos = [
         descripcion: "Landing Page Básica. El desarrollo se hizo con HTML y CSS.",
         cliente: "Super Color",
         url: "www.supercolor.com.ar",
-        enlace: "https://supercolor.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2019
     },
@@ -237,7 +237,7 @@ const proyectos = [
         descripcion: "Landing Page Básica. El desarrollo se hizo con HTML y CSS.",
         cliente: "Roman Oller",
         url: "www.romanoller.com",
-        enlace: "https://romanoller.com",
+        enlace: "#",
         estado: "Baja",
         anio: 2019
     },
@@ -259,7 +259,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con HTML y CSS.",
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
-        enlace: "https://luqlescano.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2020
     },
@@ -281,7 +281,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "M. Música SCJ",
         url: "www.comunikarte.com.ar/mmusica-scj",
-        enlace: "https://comunikarte.com.ar/mmusica-scj",
+        enlace: "#",
         estado: "Baja",
         anio: 2020
     },
@@ -303,7 +303,7 @@ const proyectos = [
         descripcion: "E-commerce. El desarrollo se hizo con Wordpress y WooCommerce.",
         cliente: "Vaxa",
         url: "www.vaxa.com.ar",
-        enlace: "https://vaxa.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2020
     },
@@ -358,7 +358,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Parroquia SCJQ",
         url: "www.parroquiascjq.com.ar",
-        enlace: "https://parroquiascjq.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2020
     },
@@ -369,7 +369,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
-        enlace: "https://luqlescano.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2021
     },
@@ -402,7 +402,7 @@ const proyectos = [
         descripcion: "Landing Page. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Vibiendar",
         url: "www.vibiendar.com.ar",
-        enlace: "https://vibiendar.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2021
     },
@@ -468,7 +468,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Marshmallow S.R.L.",
         url: "www.marshmallow.com.ar",
-        enlace: "https://marshmallow.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2021
     },
@@ -512,7 +512,7 @@ const proyectos = [
         descripcion: "Landing Page. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Eventos Alkalá",
         url: "www.eventosalkala.com.ar",
-        enlace: "https://eventosalkala.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2022
     },
@@ -523,7 +523,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Maggie Fojo",
         url: "www.maggiefojo.com.ar",
-        enlace: "https://maggiefojo.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2022
     },
@@ -600,7 +600,7 @@ const proyectos = [
         descripcion: "Landing Page. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Dito Gonzalez",
         url: "www.ditogonzalez.com.ar",
-        enlace: "https://ditogonzalez.com.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2022
     },
@@ -611,7 +611,7 @@ const proyectos = [
         descripcion: "Landing Page. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "TM Consultora",
         url: "www.tmconsultora.com",
-        enlace: "https://tmconsultora.com",
+        enlace: "#",
         estado: "Baja",
         anio: 2022
     },
@@ -711,7 +711,7 @@ const proyectos = [
         cliente: "A.E.P.A.",
         url: "www.aepa.com.ar",
         enlace: "https://aepa.com.ar",
-        estado: "Activo",
+        estado: "Mantenimiento",
         anio: 2023
     },
     {
@@ -732,8 +732,8 @@ const proyectos = [
         descripcion: "Landing Page. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "Click TV",
         url: "www.clicktv.us",
-        enlace: "https://clicktv.us",
-        estado: "Activo",
+        enlace: "#",
+        estado: "Baja",
         anio: 2024
     },
     {
@@ -745,6 +745,17 @@ const proyectos = [
         url: "www.lucaslescano.com.ar",
         enlace: "https://lucaslescano.com.ar",
         estado: "Activo",
+        anio: 2024
+    },
+    {
+        orden: "63",
+        imagen: "",
+        nombre: "SAF Entertainment",
+        descripcion: "Landing Page. El desarrollo se está haciendo con HTML, CSS y JavaSript.",
+        cliente: "SAF Entertainment",
+        url: "www.safentertainment.us",
+        enlace: "https://safentertainment.us/",
+        estado: "Desarrollo",
         anio: 2024
     }
 ]
