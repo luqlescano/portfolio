@@ -117,7 +117,7 @@ const proyectos = [
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
         enlace: "#",
-        estado: "Baja",
+        estado: "Activo",
         anio: 2018
     },
     {
@@ -260,7 +260,7 @@ const proyectos = [
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
         enlace: "#",
-        estado: "Baja",
+        estado: "Activo",
         anio: 2020
     },
     {
@@ -370,7 +370,7 @@ const proyectos = [
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
         enlace: "#",
-        estado: "Baja",
+        estado: "Activo",
         anio: 2021
     },
     {
@@ -755,7 +755,7 @@ const proyectos = [
         cliente: "SAF Entertainment",
         url: "www.safentertainment.us",
         enlace: "https://safentertainment.us/",
-        estado: "Desarrollo",
+        estado: "Activo",
         anio: 2024
     }
 ]
