@@ -711,7 +711,7 @@ const proyectos = [
         cliente: "A.E.P.A.",
         url: "www.aepa.com.ar",
         enlace: "https://aepa.com.ar",
-        estado: "Mantenimiento",
+        estado: "Activo",
         anio: 2023
     },
     {
@@ -751,10 +751,54 @@ const proyectos = [
         orden: "62",
         imagen: "",
         nombre: "SAF Entertainment",
-        descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaSript.",
+        descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "SAF Entertainment",
         url: "www.safentertainment.us",
         enlace: "https://safentertainment.us/",
+        estado: "Activo",
+        anio: 2024
+    },
+    {
+        orden: "63",
+        imagen: "",
+        nombre: "Comunidad Arcadia",
+        descripcion: "Desarrollo a medida. El desarrollo se hizo con HTML, CSS, JavaScript, PHP y SQL.",
+        cliente: "Arcadia",
+        url: "comunidad.clasesarcadia.com.ar",
+        enlace: "https://comunidad.clasesarcadia.com.ar/",
+        estado: "Activo",
+        anio: 2024
+    },
+    {
+        orden: "64",
+        imagen: "",
+        nombre: "Infladores DCA",
+        descripcion: "Sitio Web. El desarrollo se hizo con WordPress y Elementor.",
+        cliente: "Infladores DCA",
+        url: "www.infladoresdca.com.ar",
+        enlace: "https://infladoresdca.com.ar/",
+        estado: "Activo",
+        anio: 2024
+    },
+    {
+        orden: "65",
+        imagen: "",
+        nombre: "A.E.P.A.",
+        descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
+        cliente: "A.E.P.A.",
+        url: "www.aepa.com.ar",
+        enlace: "https://aepa.com.ar/",
+        estado: "Activo",
+        anio: 2024
+    },
+    {
+        orden: "66",
+        imagen: "",
+        nombre: "Arcadia",
+        descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
+        cliente: "Arcadia",
+        url: "www.clasesarcadia.com.ar",
+        enlace: "https://clasesarcadia.com.ar/",
         estado: "Activo",
         anio: 2024
     }
