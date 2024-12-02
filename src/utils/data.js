@@ -579,7 +579,7 @@ const proyectos = [
         cliente: "Ser Celíaco",
         url: "www.serceliaco.com.ar",
         enlace: "https://serceliaco.com.ar",
-        estado: "Mantenimiento",
+        estado: "Activo",
         anio: 2022
     },
     {
@@ -590,7 +590,7 @@ const proyectos = [
         cliente: "Dulé SHOP",
         url: "www.dule.ar",
         enlace: "https://dule.ar",
-        estado: "Mantenimiento",
+        estado: "Baja",
         anio: 2022
     },
     {
@@ -727,7 +727,7 @@ const proyectos = [
     },
     {
         orden: "60",
-        imagen: "../assets/img/portfolio/web-clickTv-05022024-1600x1047.jpg",
+        imagen: "",
         nombre: "Click TV",
         descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "Click TV",
@@ -800,6 +800,17 @@ const proyectos = [
         url: "www.clasesarcadia.com.ar",
         enlace: "https://clasesarcadia.com.ar/",
         estado: "Activo",
+        anio: 2024
+    },
+    {
+        orden: "67",
+        imagen: "",
+        nombre: "Bratranci S.R.L.",
+        descripcion: "Página Web. El desarrollo se está haciendo con HTML, CSS y JavaScript.",
+        cliente: "Bratranci S.R.L.",
+        url: "www.bratranci.com.ar",
+        enlace: "https://bratranci.com.ar/",
+        estado: "Desarrollo",
         anio: 2024
     }
 ]
