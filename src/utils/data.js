@@ -805,13 +805,24 @@ const proyectos = [
     {
         orden: "67",
         imagen: "",
+        nombre: "Carácter",
+        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React Js.",
+        cliente: "Carácter",
+        url: "www.caracter.com.ar",
+        enlace: "https://caracter.com.ar",
+        estado: "Activo",
+        anio: 2025
+    },
+    {
+        orden: "68",
+        imagen: "",
         nombre: "Bratranci S.R.L.",
         descripcion: "Página Web. El desarrollo se está haciendo con HTML, CSS y JavaScript.",
         cliente: "Bratranci S.R.L.",
-        url: "www.bratranci.com.ar",
-        enlace: "https://bratranci.com.ar/",
+        url: "-",
+        enlace: "#",
         estado: "Desarrollo",
-        anio: 2024
+        anio: 2025
     }
 ]
 
