@@ -116,7 +116,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con HTML y CSS.",
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
-        enlace: "https://luqlescano.com.ar",
+        enlace: "https://lucaslescano.dev",
         estado: "Activo",
         anio: 2018
     },
@@ -258,7 +258,7 @@ const proyectos = [
         nombre: "Luq Lescano",
         descripcion: "Sitio Web. El desarrollo se hizo con HTML y CSS.",
         cliente: "Luq Lescano",
-        url: "www.luqlescano.com.ar",
+        url: "www.lucaslescano.dev",
         enlace: "#",
         estado: "Activo",
         anio: 2020
@@ -369,7 +369,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
-        enlace: "https://luqlescano.com.ar",
+        enlace: "https://lucaslescano.dev",
         estado: "Activo",
         anio: 2021
     },
