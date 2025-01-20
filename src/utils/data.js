@@ -13,31 +13,31 @@ const skills = [
     },
     {
         orden: "04",
-        nombre: "React Js"
+        nombre: "Handlebars.js"
     },
     {
         orden: "05",
-        nombre: "Bootstrap"
+        nombre: "React"
     },
     {
         orden: "06",
-        nombre: "SASS & SCSS"
+        nombre: "Fetch API"
     },
     {
         orden: "07",
-        nombre: "Git & GitHub"
+        nombre: "Bootstrap"
     },
     {
         orden: "08",
-        nombre: "JSON"
+        nombre: "SASS & SCSS"
     },
     {
         orden: "09",
-        nombre: "Firebase"
+        nombre: "Git & GitHub"
     },
     {
         orden: "10",
-        nombre: "Fetch API"
+        nombre: "JSON"
     },
     {
         orden: "11",
@@ -62,6 +62,30 @@ const skills = [
     {
         orden: "16",
         nombre: "Bubble"
+    },
+    {
+        orden: "17",
+        nombre: "Firebase"
+    },
+    {
+        orden: "18",
+        nombre: "MongoDB"
+    },
+    {
+        orden: "19",
+        nombre: "Express"
+    },
+    {
+        orden: "20",
+        nombre: "Node.js"
+    },
+    {
+        orden: "21",
+        nombre: "PHP"
+    },
+    {
+        orden: "22",
+        nombre: "MySQL"
     }
 ];
 
@@ -258,8 +282,8 @@ const proyectos = [
         nombre: "Luq Lescano",
         descripcion: "Sitio Web. El desarrollo se hizo con HTML y CSS.",
         cliente: "Luq Lescano",
-        url: "www.lucaslescano.dev",
-        enlace: "#",
+        url: "www.luqlescano.com.ar",
+        enlace: "https://lucaslescano.dev",
         estado: "Activo",
         anio: 2020
     },
@@ -740,7 +764,7 @@ const proyectos = [
         orden: "61",
         imagen: "",
         nombre: "Lucas Lescano",
-        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React Js.",
+        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React.",
         cliente: "Lucas Lescano",
         url: "www.lucaslescano.dev",
         enlace: "https://lucaslescano.dev",
@@ -806,7 +830,7 @@ const proyectos = [
         orden: "67",
         imagen: "",
         nombre: "Carácter",
-        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React Js.",
+        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React.",
         cliente: "Carácter",
         url: "www.caracter.com.ar",
         enlace: "https://caracter.com.ar",
