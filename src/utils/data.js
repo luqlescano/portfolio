@@ -448,8 +448,8 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Solucionar Legales",
         url: "www.solucionarestudiojuridico.com.ar",
-        enlace: "https://solucionarestudiojuridico.com.ar",
-        estado: "Activo",
+        enlace: "#",
+        estado: "Baja",
         anio: 2021
     },
     {
@@ -657,8 +657,8 @@ const proyectos = [
         descripcion: "Página Web Básica. El desarrollo se hizo con HTML y CSS.",
         cliente: "Electro+ Js",
         url: "www.electrojs.com.ar",
-        enlace: "https://electrojs.com.ar",
-        estado: "Activo",
+        enlace: "#",
+        estado: "Baja",
         anio: 2022
     },
     {
@@ -685,7 +685,7 @@ const proyectos = [
     },
     {
         orden: "54",
-        imagen: "../assets/img/portfolio/web-construccionesJc-30052023-1600x1047.jpg",
+        imagen: "",
         nombre: "Construcciones Jc",
         descripcion: "Página Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Construcciones Jc",
@@ -696,7 +696,7 @@ const proyectos = [
     },
     {
         orden: "55",
-        imagen: "../assets/img/portfolio/web-andresFerraro-24072023-1600x1047.jpg",
+        imagen: "",
         nombre: "Andrés Ferraro",
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Andrés Ferraro",
@@ -707,7 +707,7 @@ const proyectos = [
     },
     {
         orden: "56",
-        imagen: "../assets/img/portfolio/web-sergioNobile-27072023-1600x1047.jpg",
+        imagen: "",
         nombre: "NOBILE & Asociados",
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "NOBILE & Asociados",
@@ -718,7 +718,7 @@ const proyectos = [
     },
     {
         orden: "57",
-        imagen: "../assets/img/portfolio/web-vipVansSrl-04092023-1600x1047.jpg",
+        imagen: "",
         nombre: "VIP Vans S.R.L.",
         descripcion: "Página Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "VIP Vans S.R.L.",
@@ -729,7 +729,7 @@ const proyectos = [
     },
     {
         orden: "58",
-        imagen: "../assets/img/portfolio/web-aepa-20122023-1600x1047.jpg",
+        imagen: "",
         nombre: "A.E.P.A.",
         descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "A.E.P.A.",
@@ -778,7 +778,7 @@ const proyectos = [
         descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "SAF Entertainment",
         url: "www.safentertainment.us",
-        enlace: "https://safentertainment.us/",
+        enlace: "https://safentertainment.us",
         estado: "Activo",
         anio: 2024
     },
@@ -789,7 +789,7 @@ const proyectos = [
         descripcion: "Desarrollo a medida. El desarrollo se hizo con HTML, CSS, JavaScript, PHP y SQL.",
         cliente: "Arcadia",
         url: "comunidad.clasesarcadia.com.ar",
-        enlace: "https://comunidad.clasesarcadia.com.ar/",
+        enlace: "https://comunidad.clasesarcadia.com.ar",
         estado: "Activo",
         anio: 2024
     },
@@ -800,7 +800,7 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con WordPress y Elementor.",
         cliente: "Infladores DCA",
         url: "www.infladoresdca.com.ar",
-        enlace: "https://infladoresdca.com.ar/",
+        enlace: "https://infladoresdca.com.ar",
         estado: "Activo",
         anio: 2024
     },
@@ -811,7 +811,7 @@ const proyectos = [
         descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "A.E.P.A.",
         url: "www.aepa.com.ar",
-        enlace: "https://aepa.com.ar/",
+        enlace: "https://aepa.com.ar",
         estado: "Activo",
         anio: 2024
     },
@@ -822,7 +822,7 @@ const proyectos = [
         descripcion: "Página Web. El desarrollo se hizo con HTML, CSS y JavaScript.",
         cliente: "Arcadia",
         url: "www.clasesarcadia.com.ar",
-        enlace: "https://clasesarcadia.com.ar/",
+        enlace: "https://clasesarcadia.com.ar",
         estado: "Activo",
         anio: 2024
     },
@@ -840,12 +840,23 @@ const proyectos = [
     {
         orden: "68",
         imagen: "",
+        nombre: "Arcadia",
+        descripcion: "Sitio Web. El desarrollo se hizo con WordPress y Elementor.",
+        cliente: "Arcadia",
+        url: "www.clasesarcadia.com.ar",
+        enlace: "https://clasesarcadia.com.ar",
+        estado: "Activo",
+        anio: 2025
+    },
+    {
+        orden: "69",
+        imagen: "",
         nombre: "Bratranci S.R.L.",
-        descripcion: "Página Web. El desarrollo se está haciendo con HTML, CSS y JavaScript.",
+        descripcion: "Sitio Web. El desarrollo se hizo con WordPress y Elementor.",
         cliente: "Bratranci S.R.L.",
-        url: "-",
-        enlace: "#",
-        estado: "Desarrollo",
+        url: "www.bratranci.com.ar",
+        enlace: "https://bratranci.com.ar",
+        estado: "Activo",
         anio: 2025
     }
 ]
