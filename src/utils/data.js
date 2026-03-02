@@ -13,15 +13,15 @@ const skills = [
     },
     {
         orden: "04",
-        nombre: "Handlebars.js"
+        nombre: "Responsive Design"
     },
     {
         orden: "05",
-        nombre: "React"
+        nombre: "Web Accessibility"
     },
     {
         orden: "06",
-        nombre: "Fetch API"
+        nombre: "SASS & SCSS"
     },
     {
         orden: "07",
@@ -29,43 +29,43 @@ const skills = [
     },
     {
         orden: "08",
-        nombre: "SASS & SCSS"
+        nombre: "Tailwind CSS"
     },
     {
         orden: "09",
-        nombre: "Git & GitHub"
+        nombre: "React"
     },
     {
         orden: "10",
-        nombre: "JSON"
+        nombre: "Handlebars.js"
     },
     {
         orden: "11",
-        nombre: "Accesibilidad web"
+        nombre: "Fetch API"
     },
     {
         orden: "12",
-        nombre: "Diseño responsivo"
+        nombre: "JSON"
     },
     {
         orden: "13",
-        nombre: "Wordpress"
+        nombre: "Node.js"
     },
     {
         orden: "14",
-        nombre: "WooCommerce"
+        nombre: "Express.js"
     },
     {
         orden: "15",
-        nombre: "Elementor PRO"
+        nombre: "PHP"
     },
     {
         orden: "16",
-        nombre: "Bubble"
+        nombre: "MySQL"
     },
     {
         orden: "17",
-        nombre: "Firebase"
+        nombre: "PostgreSQL"
     },
     {
         orden: "18",
@@ -73,19 +73,27 @@ const skills = [
     },
     {
         orden: "19",
-        nombre: "Express"
+        nombre: "Firebase"
     },
     {
         orden: "20",
-        nombre: "Node.js"
+        nombre: "WordPress"
     },
     {
         orden: "21",
-        nombre: "PHP"
+        nombre: "WooCommerce"
     },
     {
         orden: "22",
-        nombre: "MySQL"
+        nombre: "Elementor PRO"
+    },
+    {
+        orden: "23",
+        nombre: "Git & GitHub"
+    },
+    {
+        orden: "24",
+        nombre: "Bubble"
     }
 ];
 
@@ -119,7 +127,7 @@ const proyectos = [
         cliente: "Melanie Forher",
         url: "www.melanieforher.com.ar",
         enlace: "https://melanieforher.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2016
     },
     {
@@ -130,7 +138,7 @@ const proyectos = [
         cliente: "Comunikarte",
         url: "www.comunikarte.com.ar",
         enlace: "https://comunikarte.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2018
     },
     {
@@ -141,7 +149,7 @@ const proyectos = [
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
         enlace: "https://lucaslescano.dev",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2018
     },
     {
@@ -152,7 +160,7 @@ const proyectos = [
         cliente: "Alianza Sagrada",
         url: "www.alianzasagrada.com.ar",
         enlace: "https://alianzasagrada.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2018
     },
     {
@@ -196,7 +204,7 @@ const proyectos = [
         cliente: "Alianza Sagrada",
         url: "www.alianzasagrada.com.ar",
         enlace: "https://alianzasagrada.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2019
     },
     {
@@ -207,7 +215,7 @@ const proyectos = [
         cliente: "Imprenta DUBIÉ",
         url: "www.imprentadubie.com.ar",
         enlace: "https://imprentadubie.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2019
     },
     {
@@ -240,7 +248,7 @@ const proyectos = [
         cliente: "Sagrada Música",
         url: "www.sagradamusica.com.ar",
         enlace: "https://sagradamusica.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2019
     },
     {
@@ -273,7 +281,7 @@ const proyectos = [
         cliente: "Comunikarte",
         url: "www.comunikarte.com.ar",
         enlace: "https://comunikarte.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2020
     },
     {
@@ -284,7 +292,7 @@ const proyectos = [
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
         enlace: "https://lucaslescano.dev",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2020
     },
     {
@@ -295,7 +303,7 @@ const proyectos = [
         cliente: "Alianza Sagrada",
         url: "www.alianzasagrada.com.ar",
         enlace: "https://alianzasagrada.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2020
     },
     {
@@ -317,7 +325,7 @@ const proyectos = [
         cliente: "Construcciones Jc",
         url: "www.construccionesjc.com.ar",
         enlace: "https://construccionesjc.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2020
     },
     {
@@ -339,7 +347,7 @@ const proyectos = [
         cliente: "Arcadia",
         url: "www.clasesarcadia.com.ar",
         enlace: "https://clasesarcadia.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2020
     },
     {
@@ -372,7 +380,7 @@ const proyectos = [
         cliente: "Imprenta DUBIÉ",
         url: "www.imprentadubie.com.ar/",
         enlace: "https://imprentadubie.com.ar/",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2020
     },
     {
@@ -394,7 +402,7 @@ const proyectos = [
         cliente: "Luq Lescano",
         url: "www.luqlescano.com.ar",
         enlace: "https://lucaslescano.dev",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2021
     },
     {
@@ -416,7 +424,7 @@ const proyectos = [
         cliente: "Comunikarte",
         url: "www.comunikarte.com.ar",
         enlace: "https://comunikarte.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2021
     },
     {
@@ -437,8 +445,8 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "MDV S.R.L.",
         url: "www.mdvsrl.com.ar",
-        enlace: "https://mdvsrl.com.ar",
-        estado: "Activo",
+        enlace: "#",
+        estado: "Migrado",
         anio: 2021
     },
     {
@@ -460,7 +468,7 @@ const proyectos = [
         cliente: "Infladores DCA",
         url: "www.infladoresdca.com.ar",
         enlace: "https://infladoresdca.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2021
     },
     {
@@ -515,7 +523,7 @@ const proyectos = [
         cliente: "Comunikarte",
         url: "www.comunikarte.com.ar",
         enlace: "https://comunikarte.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2022
     },
     {
@@ -525,8 +533,8 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "Comunikarte",
         url: "www.comunikarte.ar",
-        enlace: "https://comunikarte.ar",
-        estado: "Activo",
+        enlace: "#",
+        estado: "Baja",
         anio: 2022
     },
     {
@@ -613,7 +621,7 @@ const proyectos = [
         descripcion: "E-commerce. El desarrollo se hizo con Wordpress, WooCommerce y Elementor PRO.",
         cliente: "Dulé SHOP",
         url: "www.dule.ar",
-        enlace: "https://dule.ar",
+        enlace: "#",
         estado: "Baja",
         anio: 2022
     },
@@ -680,7 +688,7 @@ const proyectos = [
         cliente: "Carácter",
         url: "www.caracter.com.ar",
         enlace: "https://caracter.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2023
     },
     {
@@ -712,8 +720,8 @@ const proyectos = [
         descripcion: "Sitio Web. El desarrollo se hizo con Wordpress y Elementor.",
         cliente: "NOBILE & Asociados",
         url: "www.nobileyasociados.com",
-        enlace: "https://nobileyasociados.com",
-        estado: "Activo",
+        enlace: "#",
+        estado: "Baja",
         anio: 2023
     },
     {
@@ -735,7 +743,7 @@ const proyectos = [
         cliente: "A.E.P.A.",
         url: "www.aepa.com.ar",
         enlace: "https://aepa.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2023
     },
     {
@@ -764,7 +772,7 @@ const proyectos = [
         orden: "61",
         imagen: "",
         nombre: "Lucas Lescano",
-        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React.",
+        descripcion: "App Web. El desarrollo se hizo con React.",
         cliente: "Lucas Lescano",
         url: "www.lucaslescano.dev",
         enlace: "https://lucaslescano.dev",
@@ -786,7 +794,7 @@ const proyectos = [
         orden: "63",
         imagen: "",
         nombre: "Comunidad Arcadia",
-        descripcion: "Desarrollo a medida. El desarrollo se hizo con HTML, CSS, JavaScript, PHP y SQL.",
+        descripcion: "Desarrollo a medida. El desarrollo se hizo con HTML, Bootstrap, JavaScript, PHP y MySQL.",
         cliente: "Arcadia",
         url: "comunidad.clasesarcadia.com.ar",
         enlace: "https://comunidad.clasesarcadia.com.ar",
@@ -823,14 +831,14 @@ const proyectos = [
         cliente: "Arcadia",
         url: "www.clasesarcadia.com.ar",
         enlace: "https://clasesarcadia.com.ar",
-        estado: "Activo",
+        estado: "Modernizado",
         anio: 2024
     },
     {
         orden: "67",
         imagen: "",
         nombre: "Carácter",
-        descripcion: "Single-Page Application (SPA). El desarrollo se hizo con React.",
+        descripcion: "App Web. El desarrollo se hizo con React.",
         cliente: "Carácter",
         url: "www.caracter.com.ar",
         enlace: "https://caracter.com.ar",
@@ -858,6 +866,17 @@ const proyectos = [
         enlace: "https://bratranci.com.ar",
         estado: "Activo",
         anio: 2025
+    },
+    {
+        orden: "70",
+        imagen: "",
+        nombre: "Comunikarte",
+        descripcion: "App Web. El desarrollo se hizo con React, Tailwind, Express, Node.js y PostgreSQL.",
+        cliente: "Comunikarte",
+        url: "www.comunikarte.com.ar",
+        enlace: "https://comunikarte.com.ar",
+        estado: "Activo",
+        anio: 2026
     }
 ]
 

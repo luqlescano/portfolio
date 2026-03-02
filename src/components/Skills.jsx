@@ -5,28 +5,35 @@ import SkillCard from "./SkillCard"
 
 const Skills = () => {
     const [loading, setLoading] = useState(true)
-    const [skills, setSkills] = useState([])
+    const [skillsGroups, setSkillsGroups] = useState([])
     const [error, setError] = useState(null)
 
     useEffect(() => {
         obtenerSkills
             .then(({ skills }) => {
                 if (Array.isArray(skills) && skills.length > 0) {
-                    const skillsOrdenadas = skills.sort((a, b) => a.orden.localeCompare(b.orden))
-                    setSkills(skillsOrdenadas)
+                    const sorted = skills.sort((a, b) => a.orden.localeCompare(b.orden))
+                    
+                    const groups = [
+                        { cols: 5, items: sorted.slice(0, 5) },  // HTML a Accesibilidad
+                        { cols: 3, items: sorted.slice(5, 8) },  // SASS a Tailwind
+                        { cols: 4, items: sorted.slice(8, 12) }, // React a JSON
+                        { cols: 3, items: sorted.slice(12, 15) },// Node a PHP
+                        { cols: 4, items: sorted.slice(15, 19) },// Firebase a PostgreSQL
+                        { cols: 3, items: sorted.slice(19, 22) },// WordPress a Elementor
+                        { cols: 2, items: sorted.slice(22, 24) } // Git y Bubble
+                    ];
+                    setSkillsGroups(groups)
                 } else {
-                    setError("No se encontraron habilidades.")
+                    setError("No se encontraron habilidades.");
                 }
             })
             .catch((error) => {
-                console.error("Error al obtener skills:", error)
-                setError("Hubo un error al obtener las habilidades.")
+                setError("Hubo un error al obtener las habilidades.");
             })
-            .finally(() => {
-                setLoading(false)
-            })
+            .finally(() => setLoading(false))
     }, [])
-    
+
     return (
         <section id="skills" className="skills">
             <h2 className="comienzoSubTitulo">Skills</h2>
@@ -34,15 +41,21 @@ const Skills = () => {
                 <div className="spinner-container">
                     <FadeLoader color={"#353D4F"} loading={loading} />
                 </div>
+            ) : error ? (
+                <p className="mensaje-error">{error}</p>
             ) : (
-                <div className="skills-contenedor">
-                    {error ? (
-                        <p className="mensaje-error">{error}</p>
-                    ) : (
-                        skills.map((skill) => (
-                            <SkillCard key={skill.orden} skill={skill} />
-                        ))
-                    )}
+                <div className="skills-main-wrapper">
+                    {skillsGroups.map((group, index) => (
+                        <div 
+                            key={index} 
+                            className="skills-contenedor" 
+                            style={{ gridTemplateColumns: `repeat(${group.cols}, 1fr)` }}
+                        >
+                            {group.items.map((skill) => (
+                                <SkillCard key={skill.orden} skill={skill} />
+                            ))}
+                        </div>
+                    ))}
                 </div>
             )}
             <p className="finSubTitulo">Skills</p>

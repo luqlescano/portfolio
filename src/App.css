@@ -161,9 +161,14 @@ body {
   content: '\002F\003E';
 }
 
+.skills-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .skills-contenedor {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
@@ -209,8 +214,7 @@ body {
   object-fit: cover;
 }
 
-/* COMENTADO HASTA FIX BUG RUTA DE IMAGENES -> VER COMPONENTE `PortfolioCard.jsx` ln8 */
-/*.portfolio-contenedor-card h3,*/ .portfolio-contenedor-card p {
+.portfolio-contenedor-card p {
   padding-top: .7rem;
 }
 
@@ -229,29 +233,15 @@ body {
 }
 
 .portfolio-contenedor-card-estado {
-  font-weight: 500;
-  text-shadow: .5px .5px 1.2px var(--llescano-blanco);
+  font-weight: 600;
 }
 
-.activo {
-  color: green;
-}
-
-.baja {
-  color: red;
-}
-
-.mantenimiento {
-  color: orange;
-}
-
-.migrado {
-  color: blue;
-}
-
-.desarrollo {
-  color: yellow;
-}
+.activo { color: #2ECC71; }
+.baja { color: #E74C3C; }
+.mantenimiento { color: #F39C12; }
+.migrado { color: #3498DB; }
+.desarrollo { color: #F1C40F; }
+.modernizado { color: #00FFFF; }
 
 .portfolio-contenedor-btn {
   display: flex;
@@ -312,79 +302,40 @@ body {
 }
 
 /* -------------------- */
-/* -------------------- */
 /* ------ Tablet ------ */
-/* -------------------- */
 /* -------------------- */
 
 @media screen and (max-width: 992px) {
-  .hola-foto img {
-    width: 10rem;
-  }
-  
-  .hola-descripcion-saludo {
-    font-size: 2rem;
-  }
-  
-  .hola-descripcion-brand {
-    font-size: 2.5rem;
-  }
-  
-  .hola-descripcion-quien-soy {
-    font-size: 1rem;
-  }
-
-  .hola-descripcion-lugar, .hola-descripcion-tengo {
-    font-size: .8rem;
-  }
+  .hola-foto img { width: 10rem; }
+  .hola-descripcion-saludo { font-size: 2rem; }
+  .hola-descripcion-brand { font-size: 2.5rem; }
+  .hola-descripcion-quien-soy { font-size: 1rem; }
+  .hola-descripcion-lugar, .hola-descripcion-tengo { font-size: .8rem; }
   
   .skills-contenedor {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 
   .portfolio-contenedor {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 /* -------------------- */
-/* -------------------- */
 /* ------ Mobile ------ */
-/* -------------------- */
 /* -------------------- */
 
 @media screen and (max-width: 576px) {
-  .header {
-    display: none;
-  }
-
-  .hola {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .hola-foto img {
-    width: 12.5rem;
-  }
-  
-  .hola-descripcion-saludo {
-    font-size: 2rem;
-  }
-  
-  .hola-descripcion-brand {
-    font-size: 2.5rem;
-  }
-  
-  .hola-descripcion-quien-soy {
-    font-size: 1rem;
-  }
-
-  .hola-descripcion-lugar, .hola-descripcion-tengo {
-    font-size: .8rem;
-  }
+  .header { display: none; }
+  .hola { flex-direction: column; gap: 1rem; }
+  .hola-foto img { width: 12.5rem; }
+  .hola-descripcion-saludo { font-size: 2rem; }
+  .hola-descripcion-brand { font-size: 2.5rem; }
+  .hola-descripcion-quien-soy { font-size: 1rem; }
+  .hola-descripcion-lugar, .hola-descripcion-tengo { font-size: .8rem; }
   
   .skills-contenedor {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 
   .portfolio-contenedor {
