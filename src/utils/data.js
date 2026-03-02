@@ -77,22 +77,26 @@ const skills = [
     },
     {
         orden: "20",
-        nombre: "WordPress"
+        nombre: "AWS S3"
     },
     {
         orden: "21",
-        nombre: "WooCommerce"
+        nombre: "WordPress"
     },
     {
         orden: "22",
-        nombre: "Elementor PRO"
+        nombre: "WooCommerce"
     },
     {
         orden: "23",
-        nombre: "Git & GitHub"
+        nombre: "Elementor PRO"
     },
     {
         orden: "24",
+        nombre: "Git & GitHub"
+    },
+    {
+        orden: "25",
         nombre: "Bubble"
     }
 ];
@@ -871,7 +875,7 @@ const proyectos = [
         orden: "70",
         imagen: "",
         nombre: "Comunikarte",
-        descripcion: "App Web. El desarrollo se hizo con React, Tailwind, Express, Node.js y PostgreSQL.",
+        descripcion: "App Web. El desarrollo se hizo con React, Tailwind CSS, Express.js, Node.js y PostgreSQL.",
         cliente: "Comunikarte",
         url: "www.comunikarte.com.ar",
         enlace: "https://comunikarte.com.ar",

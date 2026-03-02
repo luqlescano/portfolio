@@ -10,7 +10,7 @@ const Hola = () => {
             <div className="hola-descripcion">
                     <p className="hola-descripcion-saludo">Hola, soy</p>
                     <h1 className="hola-descripcion-brand">Lucas Lescano</h1>
-                    <p className="hola-descripcion-quien-soy">React Front End Developer</p>
+                    <p className="hola-descripcion-quien-soy">Full Stack Web Developer</p>
                     <p className="hola-descripcion-lugar">de Quilmes, Buenos Aires, <span className="hola-descripcion-pais">Argentina</span>.</p>
                     <p className="hola-descripcion-tengo">Tengo <span className="hola-descripcion-edad">{edadCalculada} años</span>, desde el 2014 me dedico al diseño y desarrollo web.</p>
             </div>

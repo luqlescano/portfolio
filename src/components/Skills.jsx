@@ -19,9 +19,9 @@ const Skills = () => {
                         { cols: 3, items: sorted.slice(5, 8) },  // SASS a Tailwind
                         { cols: 4, items: sorted.slice(8, 12) }, // React a JSON
                         { cols: 3, items: sorted.slice(12, 15) },// Node a PHP
-                        { cols: 4, items: sorted.slice(15, 19) },// Firebase a PostgreSQL
-                        { cols: 3, items: sorted.slice(19, 22) },// WordPress a Elementor
-                        { cols: 2, items: sorted.slice(22, 24) } // Git y Bubble
+                        { cols: 5, items: sorted.slice(15, 20) },// Bases de Datos + AWS
+                        { cols: 3, items: sorted.slice(20, 23) },// WordPress a Elementor
+                        { cols: 2, items: sorted.slice(23, 25) } // Git y Bubble
                     ];
                     setSkillsGroups(groups)
                 } else {
